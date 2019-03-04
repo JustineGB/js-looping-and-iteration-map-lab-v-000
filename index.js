@@ -3,8 +3,8 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-    return drivers.map (fullname => fullname.firstname)
-    return drivers.map (fullname => fullname.firstname)
+    return drivers.map (drivers => drivers.firstname)
+    return drivers.map (drivers => drivers.firstname)
 }
 
 function attributesToPhrase(drivers) {
