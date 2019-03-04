@@ -14,7 +14,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(fullnames) {
-    return drivers.filter(driver => driver.name == name)
+    return drivers.map (fullname => fullname.firstname == name)
 }
 
 function attributesToPhrase(drivers) {
