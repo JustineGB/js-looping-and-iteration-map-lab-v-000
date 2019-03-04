@@ -6,7 +6,7 @@ function nameToAttributes(drivers) {
   return drivers.map(function(driver) {
     const fullname = driver.split(" ");
     return Object.assign({firstname: fullname[0], lastname: fullname[1]});
-    )}
+  })
 }
 
 function attributesToPhrase(drivers) {
