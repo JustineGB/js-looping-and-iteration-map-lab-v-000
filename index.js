@@ -1,6 +1,13 @@
 // Code your solution in this file.
 
-fullnames = 
+fullnames = [
+        'Bobby Smith',
+        'Sammy Watkins',
+        'Sally Jenkins',
+        'Annette Sawyer',
+        'Sarah Hucklebee',
+        'bobby ridge'
+      ];
 
 function lowerCaseDrivers(drivers) {
   return drivers.map (driver => driver.toLowerCase());
