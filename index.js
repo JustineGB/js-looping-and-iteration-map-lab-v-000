@@ -4,9 +4,9 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   return drivers.map(function(driver) {
-    const fullname = driver.split(" ");
-    Object.assign({firstName: fullname[0], lastName: fullname[1]});
-    return fullname; });
+    var nameSplit = driver.split(" ");
+    const fullName = Object.assign({firstName: nameSplit[0], lastName: nameSplit[1]});
+    return fullName; });
 }
 
 function attributesToPhrase(drivers) {
