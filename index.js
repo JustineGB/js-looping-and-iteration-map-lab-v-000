@@ -3,11 +3,11 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-  return drivers.map(function (driver) {
-      const fullname = driver.split(" ");
-      let firstname = fullname[0]
-      let lastname = fullname[1]
-      return firstname, lastname;})
+  return drivers.map(function(driver) {
+    const fullname = driver.split(" ");
+    let firstname = fullname[0];
+    let lastname = fullname[1];
+    return `${firstname}, ${lastname}`;})
 }
 
 function attributesToPhrase(drivers) {
