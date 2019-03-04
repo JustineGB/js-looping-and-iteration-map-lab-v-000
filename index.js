@@ -1,6 +1,6 @@
 // Code your solution in this file.
 
-fullnames = [
+const fullnames = [
         'Bobby Smith',
         'Sammy Watkins',
         'Sally Jenkins',
