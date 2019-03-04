@@ -7,7 +7,7 @@ function nameToAttributes(drivers) {
     const fullname = driver.split(" ");
     let firstname = fullname[0];
     let lastname = fullname[1];
-    return `${firstname}, ${lastname}`;})
+    return `${fullname.firstname}, ${fullname.lastname}`;})
 }
 
 function attributesToPhrase(drivers) {
