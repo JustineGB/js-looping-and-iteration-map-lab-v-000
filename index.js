@@ -1,6 +1,6 @@
 // Code your solution in this file.
 
-// const fullnames = [
+// const drivers = [
 //         'Bobby Smith',
 //         'Sammy Watkins',
 //         'Sally Jenkins',
