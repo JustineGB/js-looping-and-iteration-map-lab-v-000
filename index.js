@@ -1,12 +1,13 @@
 // Code your solution in this file.
 
+fullnames = 
 
 function lowerCaseDrivers(drivers) {
   return drivers.map (driver => driver.toLowerCase());
 }
 
-function nameToAttributes(drivers) {
-  
+function nameToAttributes(fullnames) {
+    return drivers.filter(driver => driver.name == name)
 }
 
 function attributesToPhrase(drivers) {
