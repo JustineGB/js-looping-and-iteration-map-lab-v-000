@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-03-04T18:51:54.977Z",
+    "end": "2019-03-04T18:51:55.506Z",
+    "duration": 529
+  },
+  "tests": [
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js lowerCaseDrivers() uses the Array map method",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns all drivers lowercased",
+      "fullTitle": "index.js lowerCaseDrivers() returns all drivers lowercased",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js lowerCaseDrivers() does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js nameToAttributes() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns list of objects with appropriate first and last names",
+      "fullTitle": "index.js nameToAttributes() returns list of objects with appropriate first and last names",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ Array(6) ] to deeply equal [ Array(6) ]",
+        "showDiff": true,
+        "actual": "[\n  \"undefined, undefined\"\n  \"undefined, undefined\"\n  \"undefined, undefined\"\n  \"undefined, undefined\"\n  \"undefined, undefined\"\n  \"undefined, undefined\"\n]",
+        "expected": "[\n  {\n    \"firstName\": \"Bobby\"\n    \"lastName\": \"Smith\"\n  }\n  {\n    \"firstName\": \"Sammy\"\n    \"lastName\": \"Watkins\"\n  }\n  {\n    \"firstName\": \"Sally\"\n    \"lastName\": \"Jenkins\"\n  }\n  {\n    \"firstName\": \"Annette\"\n    \"lastName\": \"Sawyer\"\n  }\n  {\n    \"firstName\": \"Sarah\"\n    \"lastName\": \"Hucklebee\"\n  }\n  {\n    \"firstName\": \"bobby\"\n    \"lastName\": \"ridge\"\n  }\n]",
+        "stack": "AssertionError: expected [ Array(6) ] to deeply equal [ Array(6) ]\n    at Context.it (test/indexTest.js:83:44)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js lowerCaseDrivers() uses the Array map method",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns all drivers lowercased",
+      "fullTitle": "index.js lowerCaseDrivers() returns all drivers lowercased",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original array",
+      "fullTitle": "index.js lowerCaseDrivers() does not modify the original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the Array map method",
+      "fullTitle": "index.js nameToAttributes() uses the Array map method",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
