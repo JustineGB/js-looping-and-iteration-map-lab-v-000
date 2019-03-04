@@ -3,7 +3,7 @@
 
 function lowerCaseDrivers(drivers) {
   return drivers.map (function (driver) {
-    return nameMatch.toLowerCase() === name.toLowerCase();
+    driver.toLowerCase();
   });
 }
 
